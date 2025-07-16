@@ -1,0 +1,12 @@
+# Environment variables
+server/.env
+
+# Docker and cloud build files
+server/cloudbuild.yaml
+server/Dockerfile
+client/cloudbuild.yaml
+client/Dockerfile
+client/nginx.conf
+
+# Python virtual environment
+.venv/
