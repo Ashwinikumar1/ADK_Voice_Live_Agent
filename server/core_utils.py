@@ -14,12 +14,14 @@ stream_logger = logging.getLogger(__name__)
 
 
 # Constants
-PROJECT_ID = "alpha-code-461805"
-LOCATION = "us-central1"
-MODEL = "gemini-2.5-flash-preview-native-audio-dialog"
-VOICE_NAME = "Puck"
+load_dotenv()
+
+PROJECT_ID = os.environ.get("PROJECT_ID")
+LOCATION = os.environ.get("LOCATION")
+MODEL = os.environ.get("MODEL")
+VOICE_NAME = os.environ.get("VOICE_NAME")
 GOOGLE_GENAI_USE_VERTEXAI = "FALSE"
-GOOGLE_API_KEY = "AIzaSyABN6jVIQAETXfxBmy3jHlGXyngWM9kbS4"
+
 
 # Audio sample rates for input/output
 RECEIVE_SAMPLE_RATE = 24000  # Rate of audio received from Gemini
