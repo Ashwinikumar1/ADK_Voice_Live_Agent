@@ -48,7 +48,7 @@ self.agent = Agent(
 )
 ```
 
-**Highlight: Supercharging the Agent with Tools**
+** Supercharging the Agent with Tools**
 
 Defining the agent is just the start. The real power comes from the tools we provide. This is what transforms our voice model from a conversationalist into a capable assistant. By integrating tools, the agent can break out of its pre-trained knowledge and interact with the real world in real-time.
 
